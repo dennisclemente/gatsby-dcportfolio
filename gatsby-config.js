@@ -1,3 +1,5 @@
+require ('dot.env').config(); 
+
 module.exports = {
     siteMetadata: {
         title: 'My Portfolio!',
