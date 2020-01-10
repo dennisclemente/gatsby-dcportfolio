@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 
-import Footer from '../components/footer' //may remove later
+//import Footer from '../components/footer' //may remove later
 
 const AboutPage = () => {
     return (

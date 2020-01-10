@@ -9,7 +9,7 @@ const ContactPage = () => {
             <Head title="Contact"/>
             <h1>Contact</h1>
             <p>
-                The best way to reach me is via <a href="https://twitter.com/@dennisclemente" target="_blank">dennisclemente</a> on Twitter!
+                The best way to reach me is via <a href="https://twitter.com/@dennisclemente" target="_blank" rel="noopener noreferrer">dennisclemente</a> on Twitter!
             </p>
         </Layout>
     )
