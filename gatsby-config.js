@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: 'My Portfolio!',
-        author: 'Dennis Clemente'
+        author: 'Dennis Clemente',
     },
     plugins: [
         'gatsby-plugin-react-helmet',
@@ -9,16 +9,16 @@ module.exports = {
             resolve: 'gatsby-source-contentful',
             options: {
                 spaceId: process.env.CONTENTFUL_SPACE_ID,
-                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-            }
+                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+            },
         },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
             options: {
                 name: 'src',
-                path: `${__dirname}/src/`
-            }
+                path: `${__dirname}/src/`,
+            },
         },
         'gatsby-plugin-sharp',
         {
