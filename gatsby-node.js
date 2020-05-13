@@ -8,7 +8,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
             allContentfulBlogPost {
                 edges {
                     node {
-                        slug
+                        slug 
                     }
                 }
             }
@@ -24,4 +24,4 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
-}
+} 
